@@ -1,0 +1,11 @@
+{
+  "name": "backend-recovery-payu",
+  "version": "1.0.0",
+  "description": "this is backend that take recovery teams and save file in a s3 Bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
