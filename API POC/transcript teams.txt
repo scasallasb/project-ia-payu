@@ -1,0 +1,59 @@
+[**Microsoft Teams - Transcripción de Reunión**]
+
+**Fecha:** 2025-03-05  
+**Asunto:** Levantamiento de requerimiento - Nuevo reporte para clúster de clientes
+
+**Participantes:**
+- Carolina Gutiérrez (Usuario de Negocio)
+- Javier Ramírez (Líder de Producto)
+- Luis Herrera (Líder Técnico)
+
+---
+
+**[Inicio de la Reunión - 10:00 AM]**
+
+**Carolina Gutiérrez:** Buenos días a todos. Como saben, estamos lanzando un nuevo clúster de clientes en la región sur, y necesitamos generar un reporte específico para monitorear su comportamiento.
+
+**Javier Ramírez:** Entendido, Carolina. ¿Podrías detallar qué tipo de información necesitas en el reporte y cuál es el objetivo principal?
+
+**Carolina Gutiérrez:** Claro. Queremos hacer seguimiento a las transacciones de este clúster, identificar patrones de compra y medir la adopción de nuestros nuevos productos financieros. También necesitamos diferenciar estos clientes de los clústeres actuales.
+
+**Luis Herrera:** De acuerdo. ¿Tienes una idea más concreta de las variables que debemos incluir? Por ejemplo, monto de transacciones, frecuencia, categoría de productos...
+
+**Carolina Gutiérrez:** Sí. Queremos lo siguiente:
+- ID del cliente
+- Fecha de transacción
+- Monto total
+- Producto adquirido
+- Canal de compra
+- Identificador del clúster
+
+**Javier Ramírez:** Esto suena similar a otros reportes que ya generamos. Luis, ¿podemos aprovechar la infraestructura existente?
+
+**Luis Herrera:** En principio sí. Podemos extender el pipeline actual para incluir el nuevo clúster, pero necesitamos validar si el origen de los datos tiene identificadores claros para segmentarlos.
+
+**Carolina Gutiérrez:** Los datos vienen del sistema transaccional que ya alimenta otros reportes, así que debería estar disponible.
+
+**Luis Herrera:** Perfecto. Validaremos el modelo de datos. ¿Este reporte se necesita en tiempo real o es suficiente con una actualización diaria?
+
+**Carolina Gutiérrez:** Una vez al día es suficiente. Queremos revisar el comportamiento en la mañana con los datos del día anterior.
+
+**Javier Ramírez:** Bien. Entonces resumimos el requerimiento así:
+
+1. **Objetivo:** Monitorear el comportamiento del nuevo clúster de clientes en la región sur.
+2. **Frecuencia:** Diaria.
+3. **Datos necesarios:** ID de cliente, fecha, monto, producto, canal, identificador del clúster.
+4. **Entrega:** Archivo CSV enviado al data lake con acceso para el equipo de negocio.
+
+¿Algo más que quieras agregar, Carolina?
+
+**Carolina Gutiérrez:** Todo está claro. Solo me gustaría tener el primer entregable en dos semanas para validar.
+
+**Luis Herrera:** Es un plazo ajustado, pero lo revisaremos y te confirmaremos la factibilidad mañana.
+
+**Javier Ramírez:** Excelente. Luis, coordina con el equipo técnico. Carolina, te mantenemos informada.
+
+**Carolina Gutiérrez:** Gracias a todos. Espero su confirmación.
+
+**[Fin de la Reunión - 10:45 AM]**
+

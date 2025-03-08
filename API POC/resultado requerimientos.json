@@ -1,0 +1,29 @@
+{
+    "descripcion": "Desarrollar un reporte diario para monitorear el comportamiento del nuevo clúster de clientes en la región sur. El reporte debe incluir ID de cliente, fecha, monto, producto, canal, identificador del clúster. Los datos se entregarán en un archivo CSV enviado al data lake.",
+    "tareas": [
+        {
+            "nombre": "Validación del modelo de datos",
+            "descripcion": "Verificar si el origen de los datos tiene identificadores claros para segmentarlos.",
+            "tiempo_estimado": "2 días",
+            "responsable": "Líder Técnico"
+        },
+        {
+            "nombre": "Extensión del pipeline de datos",
+            "descripcion": "Modificar el pipeline de datos existente para incluir el nuevo clúster de clientes.",
+            "tiempo_estimado": "3 días",
+            "responsable": "Ingeniero de Datos"
+        },
+        {
+            "nombre": "Desarrollo del reporte",
+            "descripcion": "Crear el reporte con las variables especificadas y asegurar que se genere diariamente.",
+            "tiempo_estimado": "5 días",
+            "responsable": "Desarrollador Backend"
+        },
+        {
+            "nombre": "Pruebas y validación",
+            "descripcion": "Realizar pruebas para asegurar la correcta generación y entrega del reporte. Validar los resultados con el usuario de negocio.",
+            "tiempo_estimado": "4 días",
+            "responsable": "QA Engineer"
+        }
+    ]
+}
